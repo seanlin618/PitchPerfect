@@ -11,11 +11,19 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var recordingLabel: UILabel!
+    @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var stopRecordingButton: UIButton!
     
-    override func viewDidLoad() {
+    override func viewDidLoad() { //Called after the controller's view is loaded into memory.
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear called")
+    }
+    
 
 
     @IBAction func recordAudio(_ sender: Any) {
