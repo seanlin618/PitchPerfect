@@ -32,7 +32,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2m-JK-eX4">
-                                <rect key="frame" x="110" y="466.5" width="155" height="155"/>
+                                <rect key="frame" x="155.5" y="466.5" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Ztl-XY-Xfs"/>
+                                    <constraint firstAttribute="width" constant="64" id="fsc-gd-izZ"/>
+                                </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B77-QR-L2N"/>
