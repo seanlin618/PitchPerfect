@@ -13,6 +13,7 @@
 		F7DE7E6321A32EA4001E8DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DE7E6221A32EA4001E8DEA /* Assets.xcassets */; };
 		F7DE7E6621A32EA4001E8DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DE7E6421A32EA4001E8DEA /* LaunchScreen.storyboard */; };
 		F7DE7E7121A3B78B001E8DEA /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE7E7021A3B78B001E8DEA /* PlaySoundsViewController.swift */; };
+		F7DE7E7321A3DE7C001E8DEA /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE7E7221A3DE7C001E8DEA /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F7DE7E6521A32EA4001E8DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7DE7E6721A32EA4001E8DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7DE7E7021A3B78B001E8DEA /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		F7DE7E7221A3DE7C001E8DEA /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F7DE7E6421A32EA4001E8DEA /* LaunchScreen.storyboard */,
 				F7DE7E6721A32EA4001E8DEA /* Info.plist */,
 				F7DE7E7021A3B78B001E8DEA /* PlaySoundsViewController.swift */,
+				F7DE7E7221A3DE7C001E8DEA /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				F7DE7E5E21A32EA0001E8DEA /* RecordSoundViewController.swift in Sources */,
 				F7DE7E7121A3B78B001E8DEA /* PlaySoundsViewController.swift in Sources */,
 				F7DE7E5C21A32EA0001E8DEA /* AppDelegate.swift in Sources */,
+				F7DE7E7321A3DE7C001E8DEA /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
